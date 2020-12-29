@@ -24,7 +24,7 @@ nav ul li a{
 	display: inline-block;
 	padding: 8px;
 	color: #ffffff;
-	text-shadow: 2px 2px #61892f;
+	/*text-shadow: 2px 2px #61892f;*/
 
 }
 li a:hover{
@@ -37,13 +37,13 @@ a:link{
 }
 h1 {
 	color: #86c232;
-	text-shadow: 2px 2px #61892f;
+	/*text-shadow: 2px 2px #61892f;*/
 	font-size: 60px;
 	text-align: center;
 }
 h2{
 	color: #86c232;
-	text-shadow: 2px 2px #61892f;
+	/*text-shadow: 2px 2px #61892f;*/
 	text-align: center;
 	padding: 0;
 	margin: 5% 10% 5% 15%;
@@ -94,7 +94,7 @@ img{
 .innercol a{
 	padding: 5px;
 	color: #ffffff;
-	text-shadow: 2px 2px #61892f;
+	/*text-shadow: 2px 2px #61892f;*/
 	font-size: 120%;
 	font-weight: bold;
 	border-style: solid;
