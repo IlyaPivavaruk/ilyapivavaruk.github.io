@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="stylesheet.css">
+		<title>Ilya's Portfolio - Augmented Reality Navigation</title>
+	</head>
+	<body>
+		<p class="up">
+			Page Updated: 1/15/2022
+		</p>
+		<br>
+		<h1>Augmented Reality Indoor Navigation</h1>
+		<div class="main">
+			<h2>Summary</h2>
+			<p>
+				I have been working on researching and building an indoor navigation application for both iOS and Andorid phones. This project has been
+				a great learning experience and has taught me a lot when it comes to working on large projects.
+				Below is a video that shows me navigating from one room to another, start of the video is censored to keep any names hidden due to privacy concerns.
+			</p>
+			<video controls autoplay>
+				<source src="videos/arnavvid.mp4" type="video/mp4">
+			</video><br></br>
+			<h2>Logistics</h2>
+			<p>
+				I used Unity with AR Foundation plugins to create the application. This whole project is split into 3 parts. The application it self, a helper application
+				which is used for development of virtual maps, and the server side which does optical character recognition. The application it self is responsible for spawning
+				in an appropriately alligned virtual map which will be placed on top of the real world build's hallways. The application is also responsible for calculating
+				the shortest (best) path to the destiantion that is selected by the user. It spawns in the pathway highlighted by green arrows which dynamically allign to 
+				the user's walking pattern and offset. The helper application is used on the development side. A developer launches the application and walks around a buidling,
+				a 3D wireframe will be created which can then be used to create a virtual map of the building. The server communicates with the main application, it's purpose
+				is to help locate the user in the real world going off of a scan of a nameplate that is present near each room in the buildings I was working with. Once the server
+				receives an image it will perform optical character recognition operations and return location identifying string to the application. 
+			</p>
+			<h2>Conclusion</h2>
+			<p>
+				This project was a great learning experience for me and I am proud of what I accomplished. I not only strengthened by programming skills but also
+				learned to take creative approaches to obstacles that occur when developing an augmented reality based application.
+			</p>
+			<br></br>
+		</div>
+	</body>
+</html>
