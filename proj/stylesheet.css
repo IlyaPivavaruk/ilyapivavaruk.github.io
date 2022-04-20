@@ -5,13 +5,6 @@ body {
 	background-color: #222629;	
 	text-align: center;
 }
-ul{
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
-	overflow: hidden;
-
-}
 nav ul li{
 	float: right;
 	font-size: 150%;
@@ -64,10 +57,9 @@ img{
 	/*max-width: 505px;*/
 	max-width: 48%;
 	display: block;
-	float:left;
-	margin: 1%;
-	border-style: solid;
-	border-color: #86c232;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
 }
 .row{
 	text-align: center;
@@ -110,4 +102,8 @@ video{
 main{
 	text-align: center;
 	
+}
+
+.postfooter {
+    clear: both;
 }
