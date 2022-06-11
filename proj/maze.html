@@ -13,34 +13,37 @@
 		<div class="main">
 			<h2>Summary</h2>
 			<p>
-				This was one of my first big projects. It was done in Unity game engine with C#. I had no knowldege of machine learning or AI design at the time but I wanted to finally get into it. 
-				My goal was to create an AI that could solve any maze that was thrown at it. I decided to design my own algorithm to accomplish this task. Here is the final product:<br></br>
+				This was one of my first big projects. It was done in Unity game engine with C#. I did not know about machine learning or AI design at the time but I wanted to finally get into it. 
+				My goal was to create an AI that could solve any maze that was thrown at it. I decided to design my algorithm to accomplish this task. Here is the final product:<br></br>
 			</p>
 			<video controls autoplay>
 				<source src="videos/mazevid.mp4" type="video/mp4">
 			</video><br></br>
 			<h2>Logistics</h2>
 			<p>
-				As I stated before, prior to this project I had no clue how any AI or machine learning worked. I decided to rely on mathmatics to help me accomplish my goal. First I had to decide what
-				programming language and IDE I would use for this project. I chose to use Unity because I could visually represent the AI accomplishing it's task and since Unity uses C# I was stuck with
-				C# as the programming language. I quickly set up a set of mazes just to have a variety for the AI to solve. The green block is the goal that the AI has to reach and the yellow balls is
-				basically AI's sensors that have to reach the green block. I programmed in the movement and physical collision so that the yellow balls couldnt go over the red walls of the maze.
+				As I stated before, before this project I had no clue how any AI or machine learning worked. I decided to rely on the mathematics to help me accomplish my goal. 
+				First I had to decide what programming language and IDE I would use for this project. I chose to use Unity because I could visually represent the AI accomplishing 
+				its task and since Unity uses C# I was stuck with C# as the programming language. I quickly set up a set of mazes just to have a variety for the AI to solve. 
+				The green block is the goal that the AI has to reach and the yellow spheres are AI's sensors that have to reach the green block. I programmed in the movement and 
+				physical collision so that the yellow balls couldn't go over the red walls of the maze.
 				
-				For the algorithm I decided to go the multi generational route. The way this algorithm works is a generation is given a certain amount of time to live. Each generation has a certain number of 
-				steps during which each yellow ball will pick and move in a random direction. After each step is complete each ball records the distance from the goal and from the starting point. Depending on
-				the data it's assingned a weight (factor of importance) which basically determines if the data is good or bad. When another generation comes along its random direction is influenced based on
-				the progress of the previous generation's steps. If the progress for a certain step is the same over and over (the ball got probably stuck in a corner or dead end) then I just assingned a fresh
-				random direction. This cycle keeps repeating until the green block is reached.
+				For the algorithm, I decided to go the multi-generational route. The way this algorithm works is a generation is given a certain amount of time to live. 
+				Each generation has a certain number of steps during which each yellow ball will pick and move in a random direction. After each step is complete each ball 
+				records the distance from the goal and the starting point. Depending on the data it's assigned a weight (factor of importance) which determines if the data is good or bad. 
+				When another generation comes along its random direction is influenced based on the progress of the previous generation's steps. 
+				If the progress for a certain step is the same over and over (the ball got probably stuck in a corner or dead-end) then I just assigned a fresh random direction. 
+				This cycle keeps repeating until the green block is reached.
 				
-				This algorithm works pretty good however it's not perfect. Since there is a random factor involved an AI could get extremely lucky and solve a maze in a few generations. But, it could also get
-				extremely unlucky and take hundreds of generations to solve a maze (also depends on maze comlexity). When back tracking is involved it also relies heavily on luck of random direction which also
-				slows down the algorithm.
+				This algorithm works pretty well however it's not perfect. Since there is a random factor involved an AI could get extremely lucky and solve a maze in a few generations. 
+				But, it could also get extremely unlucky and take hundreds of generations to solve a maze (also depends on maze complexity). 
+				When back tracking is involved it also relies heavily on luck of random direction which also slows down the algorithm.
 			</p>
 			<h2>Conclusion</h2>
 			<p>
-				Overall this was an important project for me. It's definetly not perfect and needs improvement (infact I was thinking of redoing it) however it helped me experience working on a large
-				project which takes a lot of time and patience to complete. The knowledge that I gained from this project helped me prepare for my college CS classes where we have to do several large
-				projects thoughout a semester. This project also taught me the importance of mathmatics in computer science and gave me a basic understanding of how AI works.
+				Overall this was an important project for me. It's not perfect and needs improvement (in fact I was thinking of redoing it) however it helped me experience working on 
+				a large project which takes a lot of time and patience to complete. The knowledge that I gained from this project helped me prepare for my college CS classes where we 
+				have to do several large projects throughout a semester. This project also taught me the importance of mathematics in computer science and gave me a basic understanding 
+				of how AI works.
 			</p>
 			<br></br>
 		</div>
