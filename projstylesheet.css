@@ -2,7 +2,7 @@ html{
 	font-family: Arial, Helvetica, sans-serif;
 }
 body {
-	background-color: #222629;	
+	background-color: #ffffff;	
 }
 ul{
 	margin: 0;
@@ -16,45 +16,45 @@ nav ul li{
 	font-size: 150%;
 	font-weight: bold;
 	border-style: solid;
-	border-color: #86c232;
+	border-color: #002060;
 	margin: 0px 5px;
 
 }
 nav ul li a{
 	display: inline-block;
 	padding: 8px;
-	color: #ffffff;
+	color: #000000;
 	/*text-shadow: 2px 2px #61892f;*/
 
 }
 li a:hover{
 	
-	background-color: #61892f;
+	background-color: #00206042;
 }
 a:link{
 	
 	text-decoration: none;
 }
 h1 {
-	color: #86c232;
+	color: #002060;
 	/*text-shadow: 2px 2px #61892f;*/
 	font-size: 60px;
 	text-align: center;
 }
 h2{
-	color: #86c232;
+	color: #002060;
 	/*text-shadow: 2px 2px #61892f;*/
 	text-align: center;
 	padding: 0;
 	margin: 5% 10% 5% 15%;
 	/*margin-left: 15%;
-	margin-right: 10%;*/
+	margin-right: 10%;
 	border-style: solid;
-	border-color: #6b6e70;
+	border-color: #000000;*/
 }
 
 .innercol p {
-	color: #ffffff;
+	color: #000000;
 	font-size: 20px;
 	text-align: center;
 	padding: 0px 20px;
@@ -63,7 +63,7 @@ h2{
 img{
 	display: block;
 	border-style: solid;
-	border-color: #86c232;
+	border-color: #002060;
 	max-width: 100%;
 	margin: 0 0 3px 0;
 	padding:0px;
@@ -80,7 +80,7 @@ img{
 	margin: 1%;
 	padding: 3px 3px 0 3px;
 	border-style: solid;
-	border-color: #86c232;
+	border-color: #002060;
 }
 .innercol{
 	float:left;
@@ -93,21 +93,21 @@ img{
 }
 .innercol a{
 	padding: 5px;
-	color: #ffffff;
+	color: #000000;
 	/*text-shadow: 2px 2px #61892f;*/
 	font-size: 120%;
 	font-weight: bold;
 	border-style: solid;
-	border-color: #86c232;
+	border-color: #002060;
 
 }
 .innercol a:hover{
 	
-	background-color: #61892f;
+	background-color: #00206042;
 }
 .up{
 	float:right;
-	color: #61892f;
+	color: #000000;
 	font-size: 110%;
 	padding: 0px 20px;
 }
