@@ -5,6 +5,13 @@ body {
 	background-color: #ffffff;	
 	text-align: center;
 }
+ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	overflow: hidden;
+
+}
 nav ul li{
 	float: right;
 	font-size: 150%;
@@ -52,6 +59,7 @@ p {
 	padding: 0px 20px;
 	margin: 0 9%;
 }
+
 img{
 
 	/*max-width: 505px;*/
@@ -89,10 +97,7 @@ p a:hover{
 	
 	background-color: #00206042;
 }
-.up{
-	float:right;
-	color: #002060;
-}
+
 video{
 	border-style: solid;
 	border-color: #002060;
