@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<link rel="stylesheet" href="stylesheet.css">
-		<title>Ilya's Portfolio - About Me</title>
+		<title>Ilya's Portfolio</title>
 	</head>
 	<body>
 		<!--<nav>
@@ -13,9 +13,17 @@
 				<li><a href="index.html"> About Me </a></li>
 			</ul>		
 		</nav>-->
+
 		<div class="header_row">
+			<nav>
+				<ul>
+					<li><a href="#cont"> Contact Me </a></li>
+					<li><a href="IlyaPivavarukResume2024.pdf" target="_blank">Resume</a></li>
+					<li><a href="#desc"> Projects </a></li>
+				</ul>		
+			</nav>			
 			<p>
-				Page Updated: 1/20/2024
+				Page Updated: 1/25/2024
 			</p>
 			<br>
 			<h1>Ilya Pivavaruk</h1>
@@ -26,58 +34,91 @@
 			<h2>C# • C++ • MySQL • HTML/CSS</h2>		
 		</div>
 
-		<div class="description_row">
+		<div id="desc"class="description_row">
 
 			<br></br>
 			<!--<div class="col">-->
 			<h2>Hello, Welcome to my portfolio!</h2>
-			<p>
+			<p >
 				My name is Ilya Pivavaruk and I am a software engineer! I graduated from University of Nevada
 				Las Vegas in May of 2022 with a Bachelors of Science in Computer Science. Since then I have
 				been working as a software egineer at a company that specializes in gambling products. I 
 				mostly specialize in development with C++, C# and MySQL but I have been recently learning
-				other programming languages such as Python for my own personal projects.
+				other programming languages such as Python for my own personal projects. Feel free to check
+				out some of the projects I worked on down below! Thank you for visiting!
 			</p>
 
 		</div>
-		<div class="projects_grid">
-			
-			<div class="grid_obj">
-				1
-			</div>
-			
-			<div class="grid_obj">
-				2
-			</div>
-			
-			<div class="grid_obj">
-				3
-			</div>
-			
-			<div class="grid_obj">
-				4
-			</div>
-			
-			<div class="grid_obj">
-				5
-			</div>
-			
-			<div class="grid_obj">
-				6
-			</div>
-			
-			<div class="grid_obj">
-				7
-			</div>
-			
-			<div class="grid_obj">
-				8
-			</div>
-			
-			<div class="grid_obj">
-				9
-			</div>
 
+		<div id="proj" class="bottom">
+			<h1>Projects</h1>
+			<div class="projects_grid">
+				<a href="proj/maze.html" target="_blank">
+					<div class="grid_obj" style="background-image: url(images/mazepic.jpg);">
+						<h2>
+							Maze Machine Learning<br>
+							{C#, Unity3D}
+						</h2>
+					</div>
+				</a>
+				<a href="proj/rcb.html" target="_blank">
+					<div class="grid_obj" style="background-image: url(images/rcbpic.jpg);">
+						<h2>
+							RC Boat<br>
+							{Python, Raspberry Pi}
+						</h2>
+					</div>
+				</a>
+				<a href="proj/bus.html" target="_blank">
+					<div class="grid_obj" style="background-image: url(images/pacpic.jpg);">
+						<h2>
+							ARPersonal<br>
+							{C#, Unity3D}<br>
+							(Work In Progress)
+						</h2>
+					</div>
+				</a>
+				<a href="proj/nav.html" target="_blank">
+					<div class="grid_obj" style="background-image: url(images/arnavpic.png);">
+						<h2>
+							AR Indoor Navigation<br>
+							{C#, Python, Unity3D}
+						</h2>
+					</div>
+				</a>
+				<a href="proj/canny.html" target="_blank">
+					<div class="grid_obj" style="background-image: url(images/canny1.png);">
+						<h2>
+							Canny Edge Detection<br>
+							{C#, .Net}
+						</h2>
+					</div>
+				</a>
+				<a href="proj/sinc.html" target="_blank">
+					<div class="grid_obj" style="background-image: url(images/sinc2.png);">
+						<h2>
+							Interpolation Via SINC<br>
+							{C#, .Net}
+						</h2>
+					</div>
+				</a>
+				<a href="proj/nn.html" target="_blank">
+					<div class="grid_obj" style="background-image: url(images/ml3.png);">
+						<h2>
+							Neural Network Number Reader<br>
+							{C#, .Net}
+						</h2>
+					</div>
+				</a>
+
+			</div>
 		</div>
+
+		<div id="cont" class="footer">
+			<h1>Contact</h1>
+			<h2>Email: <a href="mailto:1ilya1gray@gmail.com">1ilya1gray@gmail.com</a></h2>
+			<h2>LinkedIn: <a href="https://www.linkedin.com/in/ilya-pivavaruk-04bb78182/" target="_blank">Ilya Pivavaruk@LinkedIn</a></h2>
+		</div>
+
 	</body>
 </html>

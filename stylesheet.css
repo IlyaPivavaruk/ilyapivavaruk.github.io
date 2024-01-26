@@ -14,6 +14,42 @@ html{
 	margin: 0;
 	padding-bottom: .1%;
 }
+
+.header_row ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	overflow: hidden;
+	
+}
+.header_row nav ul li{
+	float: right;
+	font-size: 150%;
+	font-weight: bold;
+	border-style: solid;
+	border-color: var(--headerTextColor);
+	margin: 10px 5px 0px 5px;
+	border-radius: 25px;
+	overflow: hidden;
+	background-image: linear-gradient(155deg,#00a171,#0081a1,#002cbe );
+	
+}
+.header_row nav ul li a{
+	display: inline-block;
+	padding: 8px;
+	color: var(--headerTextColor);
+	/*text-shadow: 2px 2px #61892f;*/
+}
+.header_row nav ul li a:hover{
+	
+	background-color: #ffee005d;
+	
+}
+.header_row a:link{
+	
+	text-decoration: none;
+}
+
 /*Text: "The date of change"*/
 .header_row p{
 	float: right;
@@ -88,39 +124,6 @@ body {
 
 /*description row end*/
 
-ul{
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
-	overflow: hidden;
-
-}
-nav ul li{
-	float: right;
-	font-size: 150%;
-	font-weight: bold;
-	border-style: solid;
-	border-color: #002060;
-	margin: 0px 5px;
-
-}
-nav ul li a{
-	display: inline-block;
-	padding: 8px;
-	color: #000000;
-	/*text-shadow: 2px 2px #61892f;*/
-
-}
-li a:hover{
-	
-	background-color: #00206042;
-}
-a:link{
-	
-	text-decoration: none;
-}
-
-
 p {
 	color: #000000;
 	font-size: 110%;
@@ -157,9 +160,19 @@ p a:hover{
 }
 
 /*---------------------------------------------------*/
-.projects_grid{
+.bottom{
 	background-image: linear-gradient(155deg,#00a171 ,#0081a1,#5300a1);
-	padding: 10px;
+
+}
+.bottom h1{
+	color: var(--headerTextColor);
+	font-size: 60px;
+	text-align: center;
+	padding-top: 50px;
+}
+.projects_grid{
+	
+	padding: 10px 20px 60px 20px;
 	display: grid;
 	gap: 1rem;
 
@@ -169,10 +182,7 @@ p a:hover{
 }
 
 .grid_obj{
-	background-image: url("images/mazepic.jpg");
-	background-color: greenyellow;
 	
-
 	display:flex;
 	flex-direction: column;
 	justify-content: center;
@@ -184,9 +194,71 @@ p a:hover{
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+
+	border-style: solid;
+	border-width: 2px;
+	border-color: rgb(97, 158, 0);
 }
 
+.grid_obj h2{
+	color: var(--headerTextColor);
+
+	background-color: rgba(97, 158, 0, 0.781);
+	background-size: cover;
+	width: 100%;
+	padding: 10px 0px;
+
+	text-align: center;
+
+}
+
+.grid_obj:hover{
+	box-shadow: 0 0 5px 5px rgba(211, 214, 0, 0.781);
+}
+
+.projects_grid a:link{
+	
+	text-decoration: none;
+}
 /*---------------------------------------------------*/
 
 
 /*projects row end*/
+
+/*Footer Start*/
+
+.footer{
+	background-color: #f9fbf2;
+	text-align: center;
+	margin-bottom: 50px;
+
+}
+
+.footer h1{
+	color: black;
+	font-size: 60px;
+	text-align: center;
+}
+.footer h2{
+	color: black;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	
+}
+
+
+
+
+
+
+
+
+
+/*Footer End*/
+
+/*---------------------------------------------------*/
+
+
+
+
